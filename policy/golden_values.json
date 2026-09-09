@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "stages": [
+    {
+      "stage": "firmware",
+      "pcr_index": 0,
+      "measurement": "f7c60c73d21e0cd89ceb8992a2741408df3fd34d5c19b8de20a78f54de626ef7",
+      "pcr_after": "94fbbe2421030e8c63b03c6f2fd7b1a4bb654b6b6008ceeae498e2fc33ee7d76",
+      "chain_after": "94fbbe2421030e8c63b03c6f2fd7b1a4bb654b6b6008ceeae498e2fc33ee7d76"
+    },
+    {
+      "stage": "bootloader",
+      "pcr_index": 1,
+      "measurement": "00bb480fcd1cdc2cb362e01b3c4ad3ce80ab7c100091abfeab52819fbad54ae5",
+      "pcr_after": "e1a56a77b3b018b8c2624df7483456727009eb3b801b0d3b08038e61f4bc3675",
+      "chain_after": "396e0f1103179479dcd6e23c412565d187a84f3f2d5a4972cb9204480631e3cb"
+    },
+    {
+      "stage": "kernel",
+      "pcr_index": 2,
+      "measurement": "8cb38f76cda23ac78cc9ad80e0773de694f8807ed5f699abfe6e900569ddc9be",
+      "pcr_after": "ec497e4621062bae4cb5862201d1518014481ebcaada4975c7827d6f3e9dafef",
+      "chain_after": "adcd496439d0cb11e73b0d818e64a920f5e1610a4967d418cd38430dd64d83ca"
+    },
+    {
+      "stage": "os",
+      "pcr_index": 3,
+      "measurement": "326dd502dda87521c1d7587647766d2b5d065af4aabf34d354508522fbb79ed9",
+      "pcr_after": "ac87c02e3abab91159280834fc7e97867d2cbfda880284e5d5e2a7f4d1449d98",
+      "chain_after": "017267db5e447d078d8d27e17dba0f554eacac3632039505933d2ff76b600276"
+    },
+    {
+      "stage": "ai_runtime",
+      "pcr_index": 4,
+      "measurement": "626b0ef9756d9720b4e99ac12c65c66e65c55b4ae12aeace367c958e72628c64",
+      "pcr_after": "c934932c18bd557d35262c9048f41b222287241dddc86448f9261d88625794ec",
+      "chain_after": "ebeb5107985bbf569d30e3ec9499a042419554b76c7dd1901d9add5d209e1396"
+    }
+  ]
+}
