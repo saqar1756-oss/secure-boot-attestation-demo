@@ -1,0 +1,4 @@
+MOCK-KERNEL 6.8.0-generic
+role: initialise hardware, mount root, measure the OS
+measures: os
+config: CONFIG_IMA=y CONFIG_TCG_TPM=y

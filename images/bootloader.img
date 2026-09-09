@@ -1,0 +1,4 @@
+MOCK-BOOTLOADER v2.8.0
+role: load and measure the kernel image
+measures: kernel
+cmdline: ro quiet ima_policy=tcb

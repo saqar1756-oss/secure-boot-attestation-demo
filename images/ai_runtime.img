@@ -1,0 +1,4 @@
+MOCK-AI-RUNTIME v0.9.3
+role: inference service holding the protected workload
+model: mock-classifier-7b
+weights-sha: pinned-at-build

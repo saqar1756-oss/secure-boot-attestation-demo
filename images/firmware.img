@@ -1,0 +1,4 @@
+MOCK-FIRMWARE v1.4.2
+role: core root of trust for measurement
+measures: bootloader
+build: reproducible-2026-02-11

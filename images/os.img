@@ -1,0 +1,4 @@
+MOCK-OS base-image 24.04
+role: provide the runtime environment
+measures: ai_runtime
+packages: minimal, no interactive shell
