@@ -1,6 +1,6 @@
 # Secure Boot / Remote Attestation — Concept Demo
 
-![tests](https://github.com/USERNAME/REPO/actions/workflows/tests.yml/badge.svg)
+![tests](https://github.com/saqar1756-oss/secure-boot-attestation-demo/actions/workflows/tests.yml/badge.svg)
 
 A simulated boot-attestation chain: a mock TPM with correct PCR extend
 semantics, a five-stage measured boot chain, and a remote verifier that
@@ -13,7 +13,7 @@ No hardware TPM required. Pure Python, one runtime dependency.
 ## Verify this in two minutes
 
 ```bash
-git clone https://github.com/USERNAME/REPO.git
+git clone https://github.com/saqar1756-oss/secure-boot-attestation-demo.git
 cd REPO
 pip install -r requirements.txt
 
